@@ -1,9 +1,3 @@
-baguetteBox.run('gallery');
-
-<script>
-window.addEventListener('load', function() {
-  baguetteBox.run('gallery');
-});
-</script>
+baguetteBox.run('.gallery');
 
 const search = new Filter('search', 'data-caption');
